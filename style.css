@@ -469,6 +469,11 @@ h2 {
   line-height: 26px;
 }
 
+.success_booking h6 {
+  font-size: 18px;
+  color: gray;
+}
+
 @media screen and (min-width: 992px) {
   .section-footer-sitemap .col-lg-3 {
     width: 22% !important;
