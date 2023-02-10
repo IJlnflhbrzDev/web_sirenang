@@ -39,6 +39,7 @@ h2 {
   background-image: url("assets/images/banner.png");
   margin-top: 0;
   height: 280px;
+  width: 100%;
   overflow: hidden;
   background-position: 43% 20%;
 }
@@ -467,6 +468,10 @@ h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
+}
+
+.custom-jumbotron {
+  background-color: #4B86CF;
 }
 
 .success_booking h6 {
