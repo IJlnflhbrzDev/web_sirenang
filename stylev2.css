@@ -1,0 +1,175 @@
+
+
+.overlay-bg::after{
+    content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+.carousel-caption{
+    z-index: 3 !important;
+}
+.carousel-item img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-size: cover;
+    object-fit: cover;
+}
+ .section-banner .carousel-caption{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* left: 50%; */
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .section-banner .carousel-caption h5{
+     font-size: 60px;
+     color: #ffffff;
+     margin-bottom: 30px;
+    }
+    
+    .section-banner .carousel-caption p{
+        color: #ffffff;
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+.section-banner .carousel-caption .btn-primary{
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    color: #ffffff;
+    padding: 15px 40px;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+.single-services{
+    margin-bottom: 30px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.single-services a{
+    display: inline-block;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    text-decoration: none;
+    color: #8b8c90;
+}
+.read-more:hover{
+    text-decoration: underline;
+    transition: all 0.5s ease ;
+}
+
+.single-services img{
+    max-width: 100%;
+    height: auto;
+}
+.single-services h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.single-services h3 a {
+    color: #201f25;
+}
+.single-services p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.services-content {
+    padding: 30px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+/* ABOUT CONTENT */
+
+.about-bg-img{
+    background-image: url(https://templates.envytheme.com/saspol/default/assets/img/about-img-three.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.about-content-bg{
+    background-color: #1569ae;
+    padding: 50px;
+    position: relative;
+}
+
+.about-content-three .about-content{
+    max-width: 600px;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.about-content h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.about-content p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.about-shape{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.1;
+}
+
+.about-area .btn-primary{
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    color: #ffffff;
+    padding: 15px 40px;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+
+
+
+.section-testimonial .carousel-item img{
+    width: 150px;
+    height: 150px;
+}
+
+.section-testimonial{
+    background-color: #f9fafb;
+}
+
+
+@media screen and (max-width: 552px) {
+    .section-banner .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-item img{
+        height: 80vh;
+    }
+    .section-banner .carousel-caption{
+        transform: translateY(-35%);
+    }
+}
