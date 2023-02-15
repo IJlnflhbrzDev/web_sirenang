@@ -9,11 +9,15 @@
   left: 0;
   right: 0;
   background: black;
-  opacity: 0.6;
+opacity: 0.6;
   z-index: 1;
 }
 .carousel-caption{
     z-index: 3 !important;
+}
+
+.carousel-item p {
+    margin-bottom: 1rem !important;
 }
 .carousel-item img{
     background-position: center center;
@@ -26,7 +30,7 @@
  .section-banner .carousel-caption{
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 57%;
     transform: translateY(-50%);
     /* left: 50%; */
     z-index: 1;
@@ -170,6 +174,18 @@
         height: 80vh;
     }
     .section-banner .carousel-caption{
-        transform: translateY(-35%);
+        width: 100% ;
+        left: 50%;
+        transform: translate(-50%,-35%);
     }
+    .section-banner .carousel-caption p{
+        font-size: 15px;
+    }
+
+    .carousel-control-next , .carousel-control-prev {
+        display: none;
+
+    }
+
+
 }
