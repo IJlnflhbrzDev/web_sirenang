@@ -1,4 +1,6 @@
-
+:root{
+  --primary-color: #487BBD ; 
+}
 
 .overlay-bg::after{
     content: "";
@@ -111,7 +113,7 @@ opacity: 0.6;
 }
 
 .about-content-bg{
-    background-color: #1569ae;
+    background-color: var(--primary-color);
     padding: 50px;
     position: relative;
 }
@@ -305,7 +307,7 @@ Gallery Area Style
   }
   
   .gallery-area.gallery-area-three::before {
-    background-color: #1569ae;
+    background-color: var(--primary-color);
     width: 1200px;
     z-index: -1;
   }
